@@ -1,0 +1,41 @@
+<!--
+/*
+ * @file: keep_alive_index.html 
+ * @author: Matt Russell
+ * @description: 'dummy' client that keeps the peerjs server alive. 
+ *
+ */ 
+-->
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="landing page for affect analysis study">
+    <meta name="author" content="Tufts HCI Lab">
+    <link rel="shortcut icon" href="favicon.ico"></link>
+    <title>Tufts HCI Study</title>
+    <link rel="stylesheet" href="style.css" type="text/css">    
+</head>
+<div id="media" style="display: none">        
+    <video id="video" autoplay="true" hidden="true"></video>
+</div>
+
+<!-- header contains tufts logo and lab title (most of the time) -->
+<div id="header"></div>
+
+<!-- used whenever we need content to be centered -->
+<div class="center" id="center_frame"></div>
+
+<!-- these are used whenever we want content to split down the middle -->
+<div id = "split-container">
+    <div id = "left-contain"></div>
+    <div id = "right-contain"></div>
+</div>
+
+<body>
+    <script src=peerjs.min.js></script>
+    <script src=socket.io.js></script>
+    <script src=keep_alive_client.js></script>
+</body>
+</html>

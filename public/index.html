@@ -1,0 +1,45 @@
+<!-- 
+/*
+ * @file: index.html 
+ * @author: Matt Russell
+ * @description: Web page served to the user when loading the study. 
+ *
+ */ 
+-->
+
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="landing page for affect analysis study">
+    <meta name="author" content="Tufts HCI Lab">
+    <link rel="shortcut icon" href="favicon.ico">
+    </link>
+    <title>Tufts HCI Study</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<div id="media" style="display: none">
+    <video id="video" autoplay="true" hidden="true"></video>
+</div>
+
+<!-- tufts logo and lab title -->
+<div id="header"></div>
+
+<!-- used for centered content -->
+<div class="center" id="center_frame"></div>
+
+<!-- used for content split down the middle -->
+<div id="split-container">
+    <div id="left-contain"></div>
+    <div id="right-contain"></div>
+</div>
+
+<body>
+    <script src=peerjs.min.js></script>
+    <script src=socket.io.js></script>
+    <script src=index.js></script>
+</body>
+
+</html>

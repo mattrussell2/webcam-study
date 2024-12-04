@@ -1,0 +1,49 @@
+/* font styling */
+body {
+ font-family: 'Open Sans', sans-serif;
+ font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'Archivo', sans-serif;
+ font-weight: 500;
+}
+
+/* larger display formatting */
+
+.center{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;    
+}
+
+
+/* styling for buttons across the application */
+input{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    border-radius: 10px;
+    font-size: 18px;
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #418FDE;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    border-radius: 50px;
+    transition: .5s;
+}
