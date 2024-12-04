@@ -1,4 +1,4 @@
-# emojs
+# webcam-study
 
 This is the basis for study code whereby consenting participants' webcam video data is captured. 
 
